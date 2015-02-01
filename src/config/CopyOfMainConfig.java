@@ -483,9 +483,9 @@ public class CopyOfMainConfig {
 						  
 						   System.out.println(record_xpath);
 						   
-						   driver.close();
+						  // driver.close();
 						  
-						//   driver.findElement(By.xpath(record_xpath)).click();
+						   driver.findElement(By.xpath(record_xpath)).click();
 						}
 						
 						driver.switchTo().window(parent);
