@@ -3,7 +3,7 @@ package lib;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class RadioButton {
+public class Checkbox {
 	
 	 public static String clickById(WebDriver ldriver,String lid){
 			
@@ -49,6 +49,5 @@ public class RadioButton {
 	 		}
 	 		
 	 	}
-
 
 }

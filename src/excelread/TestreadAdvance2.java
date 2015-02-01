@@ -13,22 +13,22 @@ public class TestreadAdvance2 {
 	@Test
 	public void readAllRows() throws Exception{
 		
-		File src=new File("C:/Users/Kamraj/Automation/TestProject/TestData/Data.xls");
+		File src=new File("C:/testdata1/data.xls");
 		
-	    int row_count = Workbook.getWorkbook(src).getSheet(1).getRows();
+	    int row_count=Workbook.getWorkbook(src).getSheet(0).getRows();
 	    
          System.out.println("Number of rows is "+row_count);
 	    
 	    for(int i=0;i<row_count;i++){
 	    	
-	    String data = Workbook.getWorkbook(src).getSheet(1).getCell(0,i).getContents();
+	    String data=Workbook.getWorkbook(src).getSheet(1).getCell(0,i).getContents();
     
 	    System.out.println(data);
 	   
 	    }
 	    
 	    
-	   int column_count = Workbook.getWorkbook(src).getSheet(2).getColumns();
+	   int column_count=Workbook.getWorkbook(src).getSheet(2).getColumns();
 	   
 	   System.out.println("Number of column is >>"+column_count);
 		

@@ -15,7 +15,7 @@ public class TestWriteExcel1 {
 	public void writeExcel() throws Exception{
 		
 		
-		   File src=new File("C:/Users/Kamraj/Automation/TestProject/TestData/Data2.xls");
+		   File src=new File("C:/testdata1/report2.xls");
 		
            WritableWorkbook wwb=Workbook.createWorkbook(src);
          

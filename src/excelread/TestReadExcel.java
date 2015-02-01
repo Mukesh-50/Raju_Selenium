@@ -16,7 +16,7 @@ public class TestReadExcel {
 	public void readData() throws Exception{
 		
 		
-	    File src = new File("C:/Users/Kamraj/Automation/TestProject/TestData/Data.xls");
+	    File src=new File("C:/testdata1/data.xls");
 	  
 	    System.out.println("File path specified");
 	 
